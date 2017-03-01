@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0550D1531E66A66900A55799 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0550D1521E66A66900A55799 /* main.m */; };
-		0550D1561E66A66900A55799 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0550D1551E66A66900A55799 /* AppDelegate.m */; };
-		0550D15C1E66A66900A55799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0550D15A1E66A66900A55799 /* Main.storyboard */; };
-		0550D15E1E66A66900A55799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0550D15D1E66A66900A55799 /* Assets.xcassets */; };
-		0550D1611E66A66900A55799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0550D15F1E66A66900A55799 /* LaunchScreen.storyboard */; };
 		0550D16C1E66A66900A55799 /* fdNews_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0550D16B1E66A66900A55799 /* fdNews_iOSTests.m */; };
 		0550D1771E66A66900A55799 /* fdNews_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0550D1761E66A66900A55799 /* fdNews_iOSUITests.m */; };
 		0550D18C1E66A81300A55799 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0550D18B1E66A81300A55799 /* HomeVC.m */; };
 		0550D1921E66A91100A55799 /* NewsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0550D1911E66A91100A55799 /* NewsTableView.m */; };
+		0550D1991E66B2F700A55799 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0550D1971E66B2F700A55799 /* AppDelegate.m */; };
+		0550D19A1E66B2F700A55799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0550D1981E66B2F700A55799 /* Main.storyboard */; };
+		0550D1A01E66B30300A55799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0550D19B1E66B30300A55799 /* Assets.xcassets */; };
+		0550D1A11E66B30300A55799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0550D19D1E66B30300A55799 /* LaunchScreen.storyboard */; };
+		0550D1A21E66B30300A55799 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0550D19F1E66B30300A55799 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +39,6 @@
 /* Begin PBXFileReference section */
 		0550D14E1E66A66900A55799 /* fdNews-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fdNews-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0550D1521E66A66900A55799 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0550D1541E66A66900A55799 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
-		0550D1551E66A66900A55799 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
-		0550D15B1E66A66900A55799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0550D15D1E66A66900A55799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
-		0550D1601E66A66900A55799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0550D1621E66A66900A55799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		0550D1671E66A66900A55799 /* fdNews-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fdNews-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0550D16B1E66A66900A55799 /* fdNews_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fdNews_iOSTests.m; sourceTree = "<group>"; };
 		0550D16D1E66A66900A55799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +49,12 @@
 		0550D18B1E66A81300A55799 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
 		0550D1901E66A91100A55799 /* NewsTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableView.h; sourceTree = "<group>"; };
 		0550D1911E66A91100A55799 /* NewsTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableView.m; sourceTree = "<group>"; };
+		0550D1961E66B2F700A55799 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0550D1971E66B2F700A55799 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0550D1981E66B2F700A55799 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0550D19B1E66B30300A55799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0550D19E1E66B30300A55799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0550D19F1E66B30300A55799 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,9 +171,9 @@
 		0550D1871E66A6F500A55799 /* 全局 */ = {
 			isa = PBXGroup;
 			children = (
-				0550D1541E66A66900A55799 /* AppDelegate.h */,
-				0550D1551E66A66900A55799 /* AppDelegate.m */,
-				0550D15A1E66A66900A55799 /* Main.storyboard */,
+				0550D1961E66B2F700A55799 /* AppDelegate.h */,
+				0550D1971E66B2F700A55799 /* AppDelegate.m */,
+				0550D1981E66B2F700A55799 /* Main.storyboard */,
 			);
 			path = "全局";
 			sourceTree = "<group>";
@@ -180,9 +181,6 @@
 		0550D1881E66A70C00A55799 /* 其他 */ = {
 			isa = PBXGroup;
 			children = (
-				0550D15D1E66A66900A55799 /* Assets.xcassets */,
-				0550D15F1E66A66900A55799 /* LaunchScreen.storyboard */,
-				0550D1621E66A66900A55799 /* Info.plist */,
 			);
 			path = "其他";
 			sourceTree = "<group>";
@@ -190,6 +188,9 @@
 		0550D1891E66A71E00A55799 /* 三方 */ = {
 			isa = PBXGroup;
 			children = (
+				0550D19B1E66B30300A55799 /* Assets.xcassets */,
+				0550D19C1E66B30300A55799 /* Base.lproj */,
+				0550D19F1E66B30300A55799 /* Info.plist */,
 			);
 			path = "三方";
 			sourceTree = "<group>";
@@ -215,6 +216,14 @@
 			children = (
 			);
 			path = "视频";
+			sourceTree = "<group>";
+		};
+		0550D19C1E66B30300A55799 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				0550D19D1E66B30300A55799 /* LaunchScreen.storyboard */,
+			);
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,9 +334,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0550D1611E66A66900A55799 /* LaunchScreen.storyboard in Resources */,
-				0550D15E1E66A66900A55799 /* Assets.xcassets in Resources */,
-				0550D15C1E66A66900A55799 /* Main.storyboard in Resources */,
+				0550D1A21E66B30300A55799 /* Info.plist in Resources */,
+				0550D1A11E66B30300A55799 /* LaunchScreen.storyboard in Resources */,
+				0550D1A01E66B30300A55799 /* Assets.xcassets in Resources */,
+				0550D19A1E66B2F700A55799 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,8 +362,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0550D1991E66B2F700A55799 /* AppDelegate.m in Sources */,
 				0550D18C1E66A81300A55799 /* HomeVC.m in Sources */,
-				0550D1561E66A66900A55799 /* AppDelegate.m in Sources */,
 				0550D1921E66A91100A55799 /* NewsTableView.m in Sources */,
 				0550D1531E66A66900A55799 /* main.m in Sources */,
 			);
@@ -391,22 +401,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0550D15A1E66A66900A55799 /* Main.storyboard */ = {
+		0550D19D1E66B30300A55799 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0550D15B1E66A66900A55799 /* Base */,
-			);
-			name = Main.storyboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		0550D15F1E66A66900A55799 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0550D1601E66A66900A55799 /* Base */,
+				0550D19E1E66B30300A55799 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -505,7 +505,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "fdNews-iOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/fdNews-iOS/三方/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.haidai.fdNews-iOS";
@@ -518,7 +518,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "fdNews-iOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/fdNews-iOS/三方/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.haidai.fdNews-iOS";
@@ -595,6 +595,7 @@
 				0550D17D1E66A66900A55799 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0550D17E1E66A66900A55799 /* Build configuration list for PBXNativeTarget "fdNews-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +604,7 @@
 				0550D1801E66A66900A55799 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0550D1811E66A66900A55799 /* Build configuration list for PBXNativeTarget "fdNews-iOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -611,6 +613,7 @@
 				0550D1831E66A66900A55799 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
